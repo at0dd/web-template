@@ -38,9 +38,61 @@ h3 {
     font-size: 2em;
 }
 
-/* .card {
-    width: 18rem;
-} */
+
+/* Store */
+
+.cart {
+    padding-top: 17px;
+}
+
+.cart .bi-bag {
+    font-size: 1.5em;
+}
+
+.btn-bag,
+.btn-bag:active {
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.cart .bi-circle-fill {
+    font-size: 1.1em;
+    position: relative;
+    top: -22px;
+    left: 9px;
+}
+
+.cart .item-count .count {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: 9px;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.cart .dropdown-menu {
+    padding-top: 3px;
+    width: 350px;
+}
+
+.cart .dropdown-menu li .row {
+    padding: 0 10px 0 10px;
+}
+
+.cart-image {
+    border-radius: 5px;
+    margin-top: 6px;
+    width: 50px;
+}
+
+.cart .option {
+    display: block;
+    font-size: 0.8em;
+    margin-top: -5px;
+}
 
 .price {
     line-height: 1.9em;
